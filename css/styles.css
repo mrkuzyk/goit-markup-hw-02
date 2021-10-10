@@ -30,6 +30,11 @@ body {
   text-decoration: none;
 }
 
+.btn:hover,
+.btn:focus {
+  color: var(--accent-color);
+}
+
 .title {
   font-weight: bold;
   font-size: 36px;
@@ -206,4 +211,31 @@ body {
 .foot-li:hover,
 .foot-li:focus {
   color: var(--accent-color);
+}
+
+/* --------------портфоліо проекти----------------- */
+
+.project-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.project-caption {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.project-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
