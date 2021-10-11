@@ -194,6 +194,7 @@ body {
 }
 
 .footer-adress {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -203,6 +204,7 @@ body {
 
 .footer-mail,
 .footer-tel {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
