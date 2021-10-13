@@ -118,8 +118,10 @@ body {
 }
 
 .hero-btn {
+  font-family: inherit;
+  font-style: normal;
   font-weight: 700;
-  font-size: 16 px;
+  font-size: 16px;
   line-height: 1.87;
   display: flex;
   align-items: center;
@@ -220,6 +222,8 @@ body {
 /* --------------портфоліо проекти----------------- */
 
 .project-btn {
+  font-family: inherit;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
