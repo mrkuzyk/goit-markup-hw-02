@@ -34,7 +34,8 @@ body {
 
 .btn:hover,
 .btn:focus {
-  color: var(--accent-color);
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .title {
@@ -47,6 +48,10 @@ body {
 }
 
 /* --------------меню----------------- */
+
+.header-nav .menu-link.curent {
+  color: var(--accent-color);
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -128,11 +133,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--header-color);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
 }
 
 /* --------------переваги----------------- */
